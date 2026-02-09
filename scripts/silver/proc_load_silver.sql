@@ -1,4 +1,4 @@
-exec bronze.load_bronze;
+
 exec silver.load_silver;
 create or alter procedure silver.load_silver as
 begin
